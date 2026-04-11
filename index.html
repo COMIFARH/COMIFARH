@@ -33,6 +33,7 @@
             <li><a href="#valores">Valores</a></li>
             <li><a href="#beneficios">Beneficios</a></li>
             <li><a href="#prestamos">Préstamos</a></li>
+            <li><a href="#organizacion">Organización</a></li>
             <li><a href="#eventos">Eventos</a></li>
             <li><a href="#contacto" class="nav-cta">¡Afíliate!</a></li>
         </ul>
@@ -242,21 +243,66 @@
             <button class="carousel-button prev" aria-label="Imagen anterior">&#10094;</button>
             <button class="carousel-button next" aria-label="Imagen siguiente">&#10095;</button>
         </div>
-        <div class="carousel-indicators" role="tablist" aria-label="Seleccionar imagen">
-            <button class="indicator active" role="tab" aria-selected="true" onclick="currentSlide(1)" aria-label="Imagen 1"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(2)" aria-label="Imagen 2"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(3)" aria-label="Imagen 3"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(4)" aria-label="Imagen 4"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(5)" aria-label="Imagen 5"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(6)" aria-label="Imagen 6"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(7)" aria-label="Imagen 7"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(8)" aria-label="Imagen 8"></button>
-            <button class="indicator" role="tab" aria-selected="false" onclick="currentSlide(9)" aria-label="Imagen 9"></button>
-        </div>
-    </div>
-</section>
+            </div>
+        </section>
 
-<!-- ===== CONTACTO ===== -->
+        <section id="organizacion" class="organization">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Comifarh</span>
+                    <h2 class="section-title">Junta Directiva 2025 y Comités</h2>
+                </div>
+                <p class="section-intro">Estos son los equipos con los que cuenta la cooperativa.</p>
+                <div class="organization-grid">
+                    <div class="card reveal">
+                        <span class="card-icon">🏛️</span>
+                        <h3>Junta Directiva 2025</h3>
+                        <ul class="organization-list">
+                            <li><strong>Presidente:</strong> Junior Panting</li>
+                            <li><strong>Vicepresidente:</strong> Jose Alberty</li>
+                            <li><strong>Tesorera:</strong> Dunia Medina</li>
+                            <li><strong>Secretaria:</strong> Luxita Vijil</li>
+                            <li><strong>Vocal:</strong> Walter Zepeda</li>
+                        </ul>
+                    </div>
+                    <div class="card reveal">
+                        <span class="card-icon">🛡️</span>
+                        <h3>Junta de Vigilancia</h3>
+                        <ul class="organization-list">
+                            <li><strong>Presidente:</strong> Sandra Tabora</li>
+                            <li><strong>Vicepresidente:</strong> Yansys Garcia</li>
+                            <li><strong>Vocal 1:</strong> Judith Rodriguez</li>
+                            <li><strong>Suplente:</strong> Carla Carranza</li>
+                        </ul>
+                    </div>
+                    <div class="card reveal">
+                        <span class="card-icon">💼</span>
+                        <h3>Comité de Crédito</h3>
+                        <ul class="organization-list">
+                            <li><strong>Presidente:</strong> Jenny Tinoco</li>
+                            <li><strong>Secretaria:</strong> Irma Meza</li>
+                            <li><strong>Vocal:</strong> Rebeca Gabrie</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bank-accounts reveal">
+                    <div class="bank-card">
+                    <div class="bank-header">
+                        <span class="bank-icon">BAC</span>
+                        <h3>Cuentas BAC</h3>
+                    </div>
+                        <ul class="bank-list">
+                            <li><strong>Ahorro:</strong> 753736211</li>
+                            <li><strong>Cheques:</strong> 730513831</li>
+                            <li><strong>Dólares:</strong> 753736781</li>
+                        </ul>
+                        <p class="bank-note">Estas cuentas son para las aportaciones de los afiliados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
 <section id="contacto" class="contact">
     <div class="container">
         <div class="section-header">
@@ -268,22 +314,26 @@
             <div class="contact-item reveal">
                 <span class="contact-icon">📧</span>
                 <h3>Correo Electrónico</h3>
-                <p><a href="mailto:afiliaciones@comifarh.hn">afiliaciones@comifarh.hn</a></p>
+                <p><a href="mailto:comifarh2016@gmail.com">comifarh2016@gmail.com</a></p>
             </div>
             <div class="contact-item reveal">
                 <span class="contact-icon">📱</span>
                 <h3>Teléfono</h3>
-                <p><a href="tel:+50426001234">+504 2600-1234</a></p>
+                <p><a href="tel:+50433993522">+504 3399-3522</a></p>
             </div>
             <div class="contact-item reveal">
                 <span class="contact-icon">📍</span>
                 <h3>Oficina Principal</h3>
                 <p>Villa Nueva, Cortes ,Honduras<br><small>Lun – Vie: 8:00 AM – 5:00 PM</small></p>
             </div>
-            <div class="contact-item reveal">
-                <span class="contact-icon">💬</span>
+            <div class="contact-item reveal whatsapp-card">
+                <span class="contact-icon whatsapp-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path fill="currentColor" d="M12.004 2.004C6.486 2.004 2.004 6.487 2.004 12.004c0 2.113.658 4.06 1.784 5.697L2 22l4.499-1.188A9.968 9.968 0 0012.004 22c5.518 0 10-4.483 10-9.996 0-5.517-4.482-9.999-10-9.999zm5.133 14.434c-.222.618-1.292 1.207-1.784 1.285-.48.077-1.062.099-4.177-1.035-3.114-1.135-5.115-4.216-5.262-4.4-.147-.184-1.228-1.595-1.228-3.038 0-1.443.748-2.156 1.018-2.456.266-.298.587-.368.784-.368.198 0 .39.002.562.003.182.002.426-.069.647.52.222.588.75 2.032.816 2.186.066.154.109.342.022.547-.087.205-.133.33-.269.511-.135.18-.287.402-.41.54-.135.15-.276.326-.12.642.155.317.697 1.143 1.492 1.84 1.026.859 1.888 1.123 2.209 1.249.323.126.513.107.705-.064.192-.17.83-.966 1.024-1.3.195-.334.39-.28.648-.17.26.11 1.649.776 1.93.917.281.142.47.213.54.333.07.12.07.693-.152 1.311z"/>
+                    </svg>
+                </span>
                 <h3>WhatsApp</h3>
-                <p><a href="https://wa.me/50426001234" target="_blank" rel="noopener noreferrer">+504 2600-1234</a></p>
+                <p><a href="https://wa.me/50433993522" target="_blank" rel="noopener noreferrer">+504 3399-3522</a></p>
             </div>
         </div>
     </div>
@@ -306,15 +356,16 @@
                     <li><a href="#valores">Valores</a></li>
                     <li><a href="#beneficios">Beneficios</a></li>
                     <li><a href="#prestamos">Préstamos</a></li>
+                    <li><a href="#organizacion">Organización</a></li>
                     <li><a href="#eventos">Eventos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Contacto</h4>
-                <p>📧 <a href="mailto:afiliaciones@comifarh.hn">afiliaciones@comifarh.hn</a></p>
-                <p>📱 <a href="tel:+50426001234">+504 2600-1234</a></p>
-                <p>💬 <a href="https://wa.me/50426001234" target="_blank" rel="noopener noreferrer">WhatsApp</a></p>
+                <p>📧 <a href="mailto:comifarh2016@gmail.com">comifarh2016@gmail.com</a></p>
+                <p>📱 <a href="tel:+50433993522">+504 3399-3522</a></p>
+                <p>💬 <a href="https://wa.me/50433993522" target="_blank" rel="noopener noreferrer">WhatsApp</a></p>
                 <p>🏢 Tegucigalpa, Honduras</p>
                 <p>🕐 Lun – Vie: 8:00 AM – 5:00 PM</p>
             </div>
