@@ -32,6 +32,7 @@
             <li><a href="#nosotros">Quiénes Somos</a></li>
             <li><a href="#valores">Valores</a></li>
             <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#afiliacion">Afiliación</a></li>
             <li><a href="#prestamos">Préstamos</a></li>
             <li><a href="#organizacion">Organización</a></li>
             <li><a href="#eventos">Eventos</a></li>
@@ -43,6 +44,13 @@
 <!-- ===== HERO ===== -->
 <section id="inicio" class="hero" aria-label="Inicio">
     <div class="hero-content">
+        <div class="hero-mark reveal">
+            <img src="recursos/images/logo.jpg-Photoroom.png" alt="Logo COMIFARH">
+            <div class="hero-mark-copy">
+                <strong>COMIFARH</strong>
+                <span>Cooperativa Mixta de Farmacéuticos de Honduras</span>
+            </div>
+        </div>
         <span class="hero-badge">Exclusiva para farmacéuticos hondureños</span>
         <h1>Hacemos la <span class="hero-highlight">diferencia</span> solidariamente</h1>
         <p>La cooperativa de ahorro y crédito para profesionales de la química y farmacia en Honduras. Unidos por el crecimiento de nuestro gremio.</p>
@@ -57,12 +65,12 @@
             </div>
             <div class="stat-divider"></div>
             <div class="stat">
-                <strong>5</strong>
+                <strong>3</strong>
                 <span>Tipos de préstamos disponibles</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat">
-                <strong>8%</strong>
+                <strong>10%</strong>
                 <span>Tasa mínima de préstamos</span>
             </div>
         </div>
@@ -153,6 +161,54 @@
     </div>
 </section>
 
+<!-- ===== AFILIACIÓN ===== -->
+<section id="afiliacion" class="journey">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Hazte socio</span>
+            <h2 class="section-title">Cómo <span>Afiliarte</span></h2>
+        </div>
+        <p class="section-intro">Queremos que el proceso sea claro desde el inicio. Si eres profesional de química y farmacia, estos son los pasos para integrarte a COMIFARH.</p>
+        <div class="journey-grid">
+            <div class="journey-steps">
+                <article class="journey-step reveal">
+                    <span class="journey-number">1</span>
+                    <div>
+                        <h3>Solicita información</h3>
+                        <p>Comunícate por correo, llamada o WhatsApp para recibir orientación sobre la afiliación y resolver cualquier duda inicial.</p>
+                    </div>
+                </article>
+                <article class="journey-step reveal">
+                    <span class="journey-number">2</span>
+                    <div>
+                        <h3>Realiza tus aportaciones iniciales</h3>
+                        <p>Completa la cuota de ingreso de <strong>L. 10,000</strong> y las tres cuotas mensuales de <strong>L. 1,000</strong> para activar tus beneficios financieros.</p>
+                    </div>
+                </article>
+                <article class="journey-step reveal">
+                    <span class="journey-number">3</span>
+                    <div>
+                        <h3>Confirma tu incorporación</h3>
+                        <p>Envía tu información y comprobantes al equipo de COMIFARH para completar la revisión y formalizar tu afiliación.</p>
+                    </div>
+                </article>
+            </div>
+            <aside class="journey-panel reveal">
+                <h3>Antes de iniciar</h3>
+                <ul class="journey-checklist">
+                    <li>Debes pertenecer al gremio de química y farmacia.</li>
+                    <li>Ten listos tus datos personales y comprobantes de pago.</li>
+                    <li>Usa nuestros canales oficiales para confirmar requisitos actualizados.</li>
+                </ul>
+                <div class="journey-actions">
+                    <a href="#contacto" class="cta-button">Quiero afiliarme</a>
+                    <a href="recursos/inf/Trifolio Comifarh-1_260304_161258.pdf" class="cta-secondary" target="_blank" rel="noopener noreferrer">Ver trifolio informativo</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+
 <!-- ===== PRÉSTAMOS ===== -->
 <section id="prestamos" class="loans">
     <div class="container">
@@ -161,34 +217,38 @@
             <h2 class="section-title">Tipos de <span>Préstamos</span></h2>
         </div>
         <p class="section-intro">Soluciones financieras diseñadas para las necesidades de cada profesional farmacéutico.</p>
+        <div class="loan-guide reveal">
+            <h3>Descarga y completa tu formulario</h3>
+            <ol class="loan-steps">
+                <li>Toca el tipo de préstamo que necesitas para descargar el formulario en Excel.</li>
+                <li>Llena el archivo con tus datos personales y la información de la solicitud.</li>
+                <li>Envía el formulario completado al contacto oficial de COMIFARH para revisión y seguimiento.</li>
+            </ol>
+            <div class="loan-help-actions">
+                <button type="button" onclick="document.getElementById('emailModal').classList.add('open')">Enviar por correo</button>
+                <a href="https://wa.me/50433993522?text=Buenos%20d%C3%ADas%2C%20deseo%20consultar%20sobre%20una%20solicitud%20de%20pr%C3%A9stamo%20en%20COMIFARH." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
+            </div>
+        </div>
         <div class="loans-table">
-            <div class="loan-item reveal">
+            <a class="loan-item reveal" href="recursos/Forms/Solicitud Prestamo_Automatico.xlsx" download>
                 <div class="loan-rate">12<span>%</span></div>
                 <h3>Préstamos Automáticos</h3>
                 <p>Acceso rápido y sencillo para cubrir necesidades inmediatas.</p>
-            </div>
-            <div class="loan-item reveal">
+                <span class="loan-download">Descargar formulario Excel</span>
+            </a>
+            <a class="loan-item reveal" href="recursos/Forms/Solicitud Prestamo_Fiduciario.xlsx" download>
                 <div class="loan-rate">18<span>%</span></div>
                 <h3>Préstamos Fiduciarios</h3>
                 <p>Financiamiento con el aval de un fiador calificado.</p>
-            </div>
-            <div class="loan-item reveal">
+                <span class="loan-download">Descargar formulario Excel</span>
+            </a>
+            <a class="loan-item loan-featured reveal" href="recursos/Forms/Solicitud Prestamo_Hipotecario.xlsx" download>
+                <span class="loan-badge">✦ Destacado</span>
                 <div class="loan-rate">10<span>%</span></div>
                 <h3>Préstamos Hipotecarios</h3>
                 <p>Haz realidad el sueño de tener vivienda propia.</p>
-            </div>
-            <div class="loan-item loan-featured reveal">
-                <span class="loan-badge">✦ Menor tasa</span>
-                <div class="loan-rate">8<span>%</span></div>
-                <h3>Préstamos para Emprendimiento</h3>
-                <p>Impulsa tu proyecto profesional con la tasa más competitiva.</p>
-            </div>
-            <div class="loan-item loan-featured reveal">
-                <span class="loan-badge">⭐ Popular</span>
-                <div class="loan-rate">8<span>%</span></div>
-                <h3>Negocios Emergentes</h3>
-                <p>Para nuevos negocios. Requiere el 90% de aportaciones como respaldo.</p>
-            </div>
+                <span class="loan-download">Descargar formulario Excel</span>
+            </a>
         </div>
     </div>
 </section>
@@ -203,40 +263,32 @@
         <p class="section-intro">Momentos que marcan nuestra historia y el crecimiento de nuestra cooperativa.</p>
         <div class="carousel" role="region" aria-label="Galería de eventos" aria-roledescription="carrusel">
             <div class="carousel-container">
-                <div class="carousel-item active" role="group" aria-roledescription="diapositiva" aria-label="1 de 9">
+                <div class="carousel-item active" role="group" aria-roledescription="diapositiva" aria-label="1 de 7">
                     <img src="recursos/images/imagesCarrusel/juramento a la vandera.jpeg" alt="Juramento a la Bandera" loading="lazy">
                     <div class="carousel-caption">Juramentacion de Junta Directiva</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="2 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="2 de 7">
                     <img src="recursos/images/imagesCarrusel/inicios de la cooperativa.jpg.jpeg" alt="Inicios de la Cooperativa" loading="lazy">
                     <div class="carousel-caption">Inicios de la Cooperativa</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="3 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="3 de 7">
                     <img src="recursos/images/imagesCarrusel/inicios 1.jpg.jpeg" alt="Primeros pasos de la cooperativa" loading="lazy">
                     <div class="carousel-caption">Primeros Pasos</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="4 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="4 de 7">
                     <img src="recursos/images/imagesCarrusel/premiacion.jpeg" alt="Premiación de socios" loading="lazy">
                     <div class="carousel-caption">Premiación de Socios</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="5 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="5 de 7">
                     <img src="recursos/images/imagesCarrusel/juntas.jpeg" alt="Junta directiva de la cooperativa" loading="lazy">
                     <div class="carousel-caption">Reunión de Comités</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="6 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="6 de 7">
                     <img src="recursos/images/imagesCarrusel/adicion de nuevos miembros.jpeg" alt="Nuevos miembros" loading="lazy">
                     <div class="carousel-caption">Nueva Junta Directiva</div>
                 </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="7 de 9">
+                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="7 de 7">
                     <img src="recursos/images/imagesCarrusel/vacunacion3.jpeg" alt="Jornada de vacunación" loading="lazy">
-                    <div class="carousel-caption">Jornada de Vacunación</div>
-                </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="8 de 9">
-                    <img src="recursos/images/imagesCarrusel/vacunacion4.jpeg" alt="Jornada de vacunación" loading="lazy">
-                    <div class="carousel-caption">Jornada de Vacunación</div>
-                </div>
-                <div class="carousel-item" role="group" aria-roledescription="diapositiva" aria-label="9 de 9">
-                    <img src="recursos/images/imagesCarrusel/vacunacion5.jpeg" alt="Jornada de vacunación" loading="lazy">
                     <div class="carousel-caption">Jornada de Vacunación</div>
                 </div>
             </div>
@@ -324,7 +376,7 @@
             <div class="contact-item reveal">
                 <span class="contact-icon">📍</span>
                 <h3>Oficina Principal</h3>
-                <p>Villa Nueva, Cortes ,Honduras<br><small>Lun – Vie: 8:00 AM – 5:00 PM</small></p>
+                <p>Villa Nueva, Cortés, Honduras<br><small>Lun – Vie: 8:00 AM – 5:00 PM</small></p>
             </div>
             <div class="contact-item reveal whatsapp-card">
                 <span class="contact-icon whatsapp-icon" aria-hidden="true">
@@ -355,6 +407,7 @@
                     <li><a href="#nosotros">Quiénes Somos</a></li>
                     <li><a href="#valores">Valores</a></li>
                     <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#afiliacion">Afiliación</a></li>
                     <li><a href="#prestamos">Préstamos</a></li>
                     <li><a href="#organizacion">Organización</a></li>
                     <li><a href="#eventos">Eventos</a></li>
@@ -366,7 +419,7 @@
                 <p>📧 <a href="mailto:comifarh2016@gmail.com">comifarh2016@gmail.com</a></p>
                 <p>📱 <a href="tel:+50433993522">+504 3399-3522</a></p>
                 <p>💬 <a href="https://wa.me/50433993522" target="_blank" rel="noopener noreferrer">WhatsApp</a></p>
-                <p>🏢 Tegucigalpa, Honduras</p>
+                <p>🏢 Villa Nueva, Cortés, Honduras</p>
                 <p>🕐 Lun – Vie: 8:00 AM – 5:00 PM</p>
             </div>
         </div>
@@ -375,6 +428,21 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal correo -->
+<div id="emailModal" class="email-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="emailModalTitle">
+    <div class="email-modal">
+        <button class="email-modal-close" onclick="document.getElementById('emailModal').classList.remove('open')" aria-label="Cerrar">&times;</button>
+        <h3 id="emailModalTitle">Enviar formulario por correo</h3>
+        <p>Adjunta el formulario descargado y envíalo a nuestra dirección oficial:</p>
+        <div class="email-modal-address">
+            <span id="emailToCopy">comifarh2016@gmail.com</span>
+            <button type="button" id="copyEmailBtn" onclick="copyEmail()">Copiar</button>
+        </div>
+        <p class="email-modal-hint">Puedes usar Gmail, Outlook, Yahoo o cualquier app de correo en tu teléfono o computadora.</p>
+        <a class="email-modal-open" href="https://mail.google.com/mail/?view=cm&to=comifarh2016@gmail.com&su=Solicitud%20de%20Pr%C3%A9stamo%20COMIFARH" target="_blank" rel="noopener noreferrer">Abrir en Gmail</a>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>

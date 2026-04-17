@@ -2,6 +2,22 @@
    COMIFARH — script.js  (versión final)
    ============================================================ */
 
+/* Modal de correo — cerrar al hacer clic fuera */
+document.addEventListener('click', function(e) {
+    const overlay = document.getElementById('emailModal');
+    if (overlay && e.target === overlay) overlay.classList.remove('open');
+});
+
+/* Copiar dirección de correo al portapapeles */
+function copyEmail() {
+    const email = document.getElementById('emailToCopy').textContent;
+    navigator.clipboard.writeText(email).then(function() {
+        const btn = document.getElementById('copyEmailBtn');
+        btn.textContent = '¡Copiado!';
+        setTimeout(function() { btn.textContent = 'Copiar'; }, 2000);
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
     /* --------------------------------------------------------
