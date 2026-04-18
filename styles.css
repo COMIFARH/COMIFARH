@@ -416,6 +416,21 @@ section { padding:5.5rem 0; }
     justify-content:center;
     width:100%;
 }
+.journey-actions .cta-secondary {
+    background:var(--blue);
+    color:var(--white);
+    border-color:var(--blue);
+    box-shadow:0 10px 24px rgba(0,85,179,0.18);
+}
+.journey-actions .cta-secondary:hover {
+    background:var(--blue-dark);
+    border-color:var(--blue-dark);
+}
+.journey-actions .cta-secondary .wa-inline-icon {
+    width:18px;
+    height:18px;
+    flex-shrink:0;
+}
 
 /* ===== ORGANIZACIÓN ===== */
 .organization { background:var(--white); }
@@ -900,6 +915,14 @@ section { padding:5.5rem 0; }
     .journey-number {
         margin-bottom:0.2rem;
     }
+    .journey-actions .cta-button,
+    .journey-actions .cta-secondary {
+        max-width:none;
+        padding:0.78rem 1rem;
+        font-size:0.92rem;
+        line-height:1.35;
+        text-align:center;
+    }
 
     .loans-table { grid-template-columns:1fr; gap:1rem; }
     .loan-rate   { font-size:2.6rem; }
@@ -935,6 +958,32 @@ section { padding:5.5rem 0; }
     .hero-mark-copy {
         align-items:center;
         text-align:center;
+    }
+    .journey-actions {
+        gap:0.65rem;
+    }
+    .journey-actions .cta-button,
+    .journey-actions .cta-secondary {
+        font-size:0.88rem;
+        padding:0.72rem 0.9rem;
+    }
+    .journey-panel {
+        padding:1.15rem 1rem;
+    }
+    .journey-panel h3 {
+        margin-bottom:0.65rem;
+        font-size:1rem;
+    }
+    .journey-checklist {
+        margin-bottom:0.95rem;
+    }
+    .journey-checklist li {
+        font-size:0.9rem;
+        line-height:1.5;
+        padding:0.34rem 0 0.34rem 1.25rem;
+    }
+    .journey-checklist li::before {
+        top:0.34rem;
     }
     .hero h1 { font-size:1.8rem; }
     .hero-badge { font-size:0.75rem; }
